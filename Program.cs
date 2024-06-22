@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-var udpClient = new UdpClient();
+var udpClient = new UdpClient(4009);
 
 while (true)
 {
